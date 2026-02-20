@@ -1,7 +1,6 @@
 import json
 import classifier.data_processing
 from classifier.config import HORIZON, DEVICE
-from classifier.cv_tuning import tune_hyperparams_cv
 from classifier.data_processing import run_processing
 from classifier.config import HORIZON, LOOKBACK, DEVICE, STRIDER, TEST_SIZE, N_FEATURES, TRAIN_KWARGS
 from classifier.cv_tuning import tune_hparams_ts_cv

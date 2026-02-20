@@ -8,7 +8,7 @@ import json
 from classifier.config import HORIZON, LOOKBACK, DEVICE, STRIDER, TEST_SIZE, N_FEATURES, TRAIN_KWARGS
 from classifier.data_processing import run_processing, trim_set
 from classifier.model import make_model
-from classifier.train import train_one_fold
+from classifier.train_helpers import train_one_fold
 from sklearn.metrics import roc_auc_score, f1_score, balanced_accuracy_score, accuracy_score
 from sklearn.model_selection import TimeSeriesSplit
 from classifier.cv_tuning import tune_hparams_ts_cv

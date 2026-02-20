@@ -2,7 +2,7 @@ import itertools
 import numpy as np
 from sklearn.model_selection import TimeSeriesSplit
 from classifier.data_processing import trim_set
-from classifier.train import train_one_fold
+from classifier.train_helpers import train_one_fold
 from classifier.model import make_model
 
 def run_time_series_cv(hp, X, y, idxs, n_splits, device, horizon, lookback, **train_kwargs):
