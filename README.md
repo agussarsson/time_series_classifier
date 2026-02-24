@@ -69,3 +69,13 @@ python scripts/train_classifier.py
 ```
 
 The best model will be saved in ```models/final_model.pt```.
+
+### Real-World Implications
+
+## Interpreting the results
+
+The stock market is famously known for its unpredictability, a trait that is confirmed in this project. However, to achieve more statistically significant results, one can use more than one stock for training and evaluating on different stocks to test its' generalizability.
+
+## Implications for trading
+
+The returns generated from this model in medium-frequency trading, even if positive, would probably be consumed by brokerage fees. This model should not be considered for trading and is only for experimental purposes.
