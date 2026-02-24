@@ -70,7 +70,7 @@ python scripts/train_classifier.py
 
 The best model will be saved in ```models/final_model.pt```.
 
-### Real-World Implications
+# Real-World Implications
 
 ## Interpreting the results
 
